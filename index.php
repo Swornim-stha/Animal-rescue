@@ -138,8 +138,7 @@
 
 <hr>
 <footer>
-    <p>Copyright  © 2010-2024  Himalayan Animal Rescue Trust   |   All rights reserved</p>
+    <p>Copyright  © 2010-2024  Animal rescue project   |   All rights reserved</p>
 </footer>
-   
 </body>
 </html>
