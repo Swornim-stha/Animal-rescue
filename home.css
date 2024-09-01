@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FF6600;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    height: 5px;
+}
+
+.text{
+    border: none;
+    font-size: 100px;
+}
+
+button{
+    margin-left: 10px;
+    color: #FF6600;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #FF6600;
+    transition: all 0.5s ease-in-out 0.5s;
+}
+/* .logo{} */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    font-size: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: medium;
+}
+
+nav ul li a:hover {
+    color: rgb(15, 187, 15);
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+}
+
+.image {
+    height: 100%;
+    margin: 0px 70px 0px 70px;
+    background-color: rgb(215, 215, 250);
+    background-image: url("https://media.licdn.com/dms/image/D4D12AQGwnsTm2ui0qw/article-cover_image-shrink_720_1280/0/1692979356957?e=2147483647&v=beta&t=ZsRsQdWkd4Awheo60KHGiJRh8Ne2MoFvU9x4HLrizYI");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    color: white;
+    font-size: 36px;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #FF6600;
+    margin-top: 10px;
+}
+
+.about {
+    padding: 60px;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.main1 {
+    width: 60%;
+}
+
+
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px; /* Adjust the height as necessary */
+    border: none;
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #FF6600;
+}
+.homedog{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin: 100px;
+    padding: 60px;
+    padding-top: 0px;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 3px;
+    padding: 5px;
+}
+
+.sup{
+    color: #FF6600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.donation{
+    margin-top: 5px;
+    color: #FF6600;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50px;
+    justify-content: start;
+    align-items: center;
+    height: 120px;
+}
+
+.pay{
+    width: 100px;
+    background-size: 10px;
+    margin-left: 50px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
