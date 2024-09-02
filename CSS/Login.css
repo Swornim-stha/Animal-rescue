@@ -95,3 +95,14 @@ body {
 .signup-link a {
   text-decoration: underline;
 }
+.back-to-homepage {
+  color: #6B7280;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.back-to-homepage a {
+  text-decoration: wavy;
+  
+}
