@@ -41,5 +41,4 @@
         <p class="signin">Already have an acount ? <a href="./login.html">Signin</a> </p>
     </form>
 </body>
-git hello
 </html>

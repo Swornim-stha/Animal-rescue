@@ -26,11 +26,11 @@
 
       <p class="signup-link">
         No account?
-        <a href="./signup.html">Sign up</a>
+        <a href="signup.php">Sign up</a>
       </p>
       <p class="back-to-homepage">
        
-        <a href="./index.html"> Go back to homepage</a>
+        <a href="index.html"> Go back to homepage</a>
       </p>
     </form>
   </div>
