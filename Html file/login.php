@@ -13,7 +13,14 @@
     <form class="form">
       <p class="form-title">Sign in to your account</p>
       <div class="input-container">
-        <input type="email" placeholder="Enter email">
+        <input 
+            type="email" 
+            name="gmail" 
+            placeholder="Enter your email" 
+            required 
+            pattern="[a-zA-Z0-9._%+-]+@gmail\.com" 
+            title="Please enter a valid email address (e.g., username@gmail.com)"
+        >
         <span>
         </span>
       </div>

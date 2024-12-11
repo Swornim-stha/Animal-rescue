@@ -11,8 +11,10 @@ body {
     box-sizing: border-box;
 }
 
+
+
 header {
-    background-color: #FF6600;
+    background-color: #ee5c27;
     padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -32,44 +34,48 @@ nav {
 
 button{
     margin-left: 10px;
-    color: #FF6600;
+    background-color: white;
     font-size: 15px;
     padding: 10px;
     border-radius: 20px;
     border: none;
-
 }
 
 button:hover{
-    color: white;
+    color: rgb(241, 91, 11);
     cursor: pointer;
-    background-color: #FF6600;
-    transition: all 0.5s ease-in-out 0.5s;
+    background-color: #d32b0575;
+    transition: all 0.1s ease-in-out 0.1s;
 }
-/* .logo{} */
+
 
 nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+    margin: 15px;
+    padding: 5px;
     width: 40%;
     font-size: 20px;
+    color: white;
+}   
+
+nav li{
+    margin-left: 12px;
 }
 
-nav ul li {
-    margin-left: 20px;
+nav li:hover {
+    color: #e42306;
+    cursor: pointer;
 }
 
-nav ul li a {
+li a{
     text-decoration: none;
     color: white;
-    font-weight: medium;
 }
 
-nav ul li a:hover {
-    color: rgb(15, 187, 15);
+li a:hover{
+    color: #e42306;
 }
 
 .hero {
@@ -125,21 +131,20 @@ nav ul li a:hover {
 }
 .main1 {
     width: 60%;
+    margin-left: 70px;
 }
 
 
-.map-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    border: 2px solid #ccc;
+.main2{
+    margin-right: 40px;
 }
 
-.map-container iframe {
-    width: 100%;
-    height: 400px; /* Adjust the height as necessary */
-    border: none;
+.main2 h2{
+    text-align: center;
 }
+
+
+
 
 
 .home{
@@ -149,56 +154,40 @@ nav ul li a:hover {
     padding: 20px;
     margin-top: 20px;
     color: #FF6600;
+    margin-bottom: 0px;
 }
+
 .homedog{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 200;
     font-size: 30px;
-    margin-bottom: 0px;
+    color: black;
 }
 
-.main-box{
+
+.image-container {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 0px;
-    margin: 100px;
-    padding: 60px;
-    padding-top: 0px;
-    flex-wrap: wrap;
-}
-
-.box{
-    margin: 3px;
-    padding: 5px;
-}
-
-.sup{
-    color: #FF6600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    margin-bottom: 0px;
-}
-
-.donation{
-    margin-top: 5px;
-    color: #FF6600;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-evenly; /* Even spacing between items */
+    gap: 10px; /* Optional: Adds consistent spacing between rows */
     padding: 20px;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 50px;
-    justify-content: start;
-    align-items: center;
-    height: 120px;
+    margin: 10px;
 }
 
-.pay{
-    width: 100px;
-    background-size: 10px;
-    margin-left: 50px;
+/* Style each image */
+.image-container img {
+    width: 200px; /* Set image width */
+    height: 200px; /* Set image height */
+    object-fit: cover; /* Ensures images maintain aspect ratio */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin: 10px;
 }
 
+#contact {
+    background-color: #f1f1f1;
+    padding: 50px;
+    text-align: center  ;
+}
 
 footer{
     display: flex;
